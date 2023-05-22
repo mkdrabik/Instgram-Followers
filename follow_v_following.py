@@ -1,7 +1,7 @@
 import json
 
-followers = open("followers.json", "r")
-following = open("following.json", "r")
+followers = open("followers_1.json", "r")
+following = open("following_1.json", "r")
 
 ers = json.load(followers)
 ing = json.load(following)
